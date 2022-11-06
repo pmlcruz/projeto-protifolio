@@ -1,0 +1,75 @@
+*{
+				margin: 0;
+				padding: 0
+				box-sizing: border-box;
+				font-family: 'Poppins', sans-serif;
+}
+body{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				min-height: 100vh;
+				background: #000000;
+}
+a{
+				text-decoration: none;
+}
+div img{
+				align-items: center;
+				justify-content: center;
+				width: 60%;
+				height: 40%;
+}
+.container{
+				display: inline-flex;
+}
+.container .estatico{
+				color: #ff6aa9;
+				font-size: 40px;
+				font-width: 600;
+}
+.container .dinamico{
+				margin-left: 15px;
+				line-height: 90px;
+				height: 90px;
+				overflow: hidden;
+}
+.dinamico li{
+				color: #ff6aa9;
+				list-style: none;
+				font-size: 60px;
+				font-weight: 500;
+				left: 0;
+				position: relative;
+				top: 0;
+				animation: slide 6s steps(4) infinite;
+}
+@keyframes slides{
+				100%
+				top: -360px
+}
+.dinamico li span::after{
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				animation: typing 1.5s steps(10) infinite;
+				background: #000000;
+}
+.dinamico li span{
+				position: relative;
+}
+@keyframes typing{
+				100%{
+								left: 100%;
+								margin: 0 -35px 0 35px;
+				}
+}
+button{
+				background: #ff4093;
+				font-color: #000000;
+				margin-left: 90px;
+				margin-top: 90px;
+				border-radius: 18%;
+}

@@ -1,0 +1,106 @@
+*{
+				margin: 0;
+				padding: 0;				
+				box-sizing: border-box;
+				font-family: 'Josefin Sans', sans-serif;
+}
+body{
+/* Não achei na internet um bg tech que combinasse, então fiz este, usando o app PicsArt */
+				background-image: url('../img/bgpmlcc.png');
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+}
+.hero{
+				height: 100vh;
+				width: 100%;
+}
+nav{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding-top: 40px;
+				padding-left: 10%;
+				padding-right: 10%;
+}
+.logo{
+				color: #000;
+				font-size: 28px;
+				border-radius: 28px;
+				background: #ffd5f4;
+}
+span{
+				color:#ff2bb2;
+}
+nav ul li{
+				list-style-type: none;
+				display: inline-block;
+				padding: 10px 20px;
+}
+nav ul li a{
+				color: #000;
+				text-decoration: none;
+				font-weigth: bold;
+				font-weight: bold;
+				border: 30px;
+				font-size: 15px;
+}
+nav ul li a:hover{
+				color: #ff1593;
+				transition: .3;
+}
+button{
+				border-radius: 30px;
+				background: #ff55c7;
+				padding: 12px 30px;
+				border: none;
+				font-weight: bold;
+				font-size: 15px;
+				transition: .4s;
+}
+button:hover {
+				transform: scale(1.3);
+				cursor: pointer;
+				color: #ff009d;
+}
+p{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #ff80c8;
+				color: #000;
+				font-weight: bold;
+}
+img{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding-top: 40px;
+				padding-left: 2%;
+				padding-right: 2%;
+				width: 50%;
+				height: 50%;
+				margin:auto;
+			  overflow:hidden;
+}
+h2{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #fff;
+}
+h3{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #ff80c8;
+				background: #fff;
+}
+footer{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 12vh;
+				background: #000;
+				color: #fff;
+}
